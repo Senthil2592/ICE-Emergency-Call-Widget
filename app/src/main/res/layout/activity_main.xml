@@ -1,0 +1,126 @@
+<android.support.percent.PercentRelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF"
+    android:id="@+id/relativeLauout"
+    android:orientation="vertical" >
+
+
+    <TextView android:text="Please enter the following details" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:paddingTop="@dimen/firstLineMarginTop"
+        android:paddingLeft="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"/>
+
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:id="@+id/ownerNameValue"
+        android:layout_width="match_parent"
+        android:hint="Your name"
+        android:ellipsize="start"
+        android:paddingTop="@dimen/paddingTop"
+        android:paddingLeft="15dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView"
+        android:singleLine="true"
+        android:maxLength="16"
+        android:textColor="#5c5c3d"/>
+
+       <EditText
+        android:layout_height="wrap_content"
+        android:id="@+id/emergContPersonValue"
+        android:layout_width="match_parent"
+           android:paddingTop="@dimen/paddingTop"
+           android:layout_below="@+id/ownerNameValue"
+           android:hint="Emergency person name"
+           android:ellipsize="start"
+           android:paddingLeft="15dp"
+           android:singleLine="true"
+           android:maxLength="16"
+           android:textSize="20dp"
+           android:textColor="#5c5c3d"/>
+
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:id="@+id/emergContNoValue"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/paddingTop"
+        android:maxLength="10"
+        android:hint="Emergency contact number"
+        android:ellipsize="start"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/emergContPersonValue"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="#5c5c3d"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:id="@+id/relationValue"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/paddingTop"
+        android:hint="Relation between you"
+        android:maxLength="8"
+        android:ellipsize="start"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/emergContNoValue"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="#5c5c3d"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:id="@+id/bloodGrpValue"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/paddingTop"
+        android:hint="Your blood group"
+        android:maxLength="5"
+        android:ellipsize="start"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/relationValue"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="#5c5c3d"/>
+
+    <TextView android:text="Widget Color" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/widgetColor"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="@dimen/paddingTop"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/bloodGrpValue"
+        android:textColor="#000000"/>
+
+    <Spinner
+        android:id="@+id/colorDropdown"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widgetColor"
+        android:textColor="#FFFFFF"
+        android:background="#990073"
+        android:paddingLeft="8dp"
+        android:textSize="16sp"
+        android:spinnerMode="dropdown" />
+
+    <Button android:id="@+id/next_level_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/update"
+        android:background="@drawable/button_boarder"/>
+
+</android.support.percent.PercentRelativeLayout>

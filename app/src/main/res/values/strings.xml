@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ICE Call Widget</string>
+
+    <string name="action_settings">Lock Screen Widget</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="update">Update</string>
+    <string name="stpsFirstLine">Scroll the lock screen to right and check whether you could see + symbol</string>
+    <string name="stpsSecondLine">Else, Go to Settings and enable Lock Screen Widget checkbox. And follow the first step</string>
+    <string name="stpsThirdLine">Users with lollipop version and above the addition of lock screen widgets are not built in. So, you can go with
+    links given below</string>
+    <string name="stpsFourthLine">https://apkpure.com/notifidgets/com.notifidgets</string>
+    <string name="stpsFifthLine">https://www.youtube.com/watch?v=e1bJ1LufeBw</string>
+    <string name="stpsSixthLine">Our team is researching on making calls from lock screen once that is done you will get that feature as well! Thank You. Keep Supporting</string>
+
+
+    <string name="adUnitId">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-1575509450873201/8500352973</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string-array name="colorDropdown">
+        <item>Violet</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>White</item>
+    </string-array>
+
+</resources>

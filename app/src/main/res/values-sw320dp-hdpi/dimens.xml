@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="firstLineMarginTop">35dp</dimen>
+    <dimen name="paddingTop">18dp</dimen>
+    <dimen name="widgetTextSize">14sp</dimen>
+    <dimen name="widgetPaddingTop">14sp</dimen>
+
+</resources>

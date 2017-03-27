@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ScrollView
+        android:id="@+id/scrollViewRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <TextView android:text="Steps to get lock screen widget" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="@string/stpsFirstLine" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stepsFirstLine"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="35dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="@string/stpsSecondLine" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stepsSecondLine"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/stepsFirstLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="@string/stpsThirdLine" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stepsThirdLine"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/stepsSecondLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="@string/stpsFifthLine" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stepsFourthLine"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingTop="30dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/stepsThirdLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="@string/stpsFourthLine" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stepsFifthLine"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingTop="30dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/stepsFourthLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="@string/stpsSixthLine" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stepsSixthLine"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingTop="30dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/stepsFifthLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>
+</ScrollView>
+
+
+</RelativeLayout>

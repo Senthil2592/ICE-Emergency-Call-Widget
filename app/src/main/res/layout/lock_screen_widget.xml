@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:background="@android:color/transparent">
+
+
+
+    <TextView android:text="My Name:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wgtOwnerName"
+        android:textStyle="bold"
+        android:textSize="@dimen/widgetTextSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wgtOwnerNameValue"
+        android:layout_toRightOf="@+id/wgtOwnerName"
+        android:paddingLeft="5sp"
+        android:paddingTop="1sp"
+        android:textStyle="bold"
+        android:textSize="@dimen/widgetTextSize"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="Blood Group:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wgtBloodGrp"
+        android:textStyle="bold"
+        android:textSize="@dimen/widgetTextSize"
+        android:paddingTop="@dimen/widgetPaddingTop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/wgtOwnerNameValue"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wgtBloodGrpValue"
+        android:layout_toRightOf="@+id/wgtBloodGrp"
+        android:layout_below="@+id/wgtOwnerNameValue"
+        android:textStyle="bold"
+        android:textSize="@dimen/widgetTextSize"
+        android:paddingLeft="5sp"
+        android:paddingTop="@dimen/widgetPaddingTop"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="ICE Person:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wgtEmergencyContactPerson"
+        android:textStyle="bold"
+        android:textSize="@dimen/widgetTextSize"
+        android:paddingTop="@dimen/widgetPaddingTop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/wgtBloodGrpValue"
+        android:textColor="#FFFFFF"/>
+
+
+    <TextView android:text="" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wgtEmergencyContactPersonValue"
+        android:layout_toRightOf="@+id/wgtEmergencyContactPerson"
+        android:layout_below="@+id/wgtBloodGrpValue"
+        android:paddingLeft="5sp"
+        android:textStyle="bold"
+        android:textSize="@dimen/widgetTextSize"
+        android:paddingTop="@dimen/widgetPaddingTop"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="ICE No:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wgtEmergencyContactNumber"
+        android:textStyle="bold"
+        android:textSize="@dimen/widgetTextSize"
+        android:paddingTop="@dimen/widgetPaddingTop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/wgtEmergencyContactPersonValue"
+        android:textColor="#FFFFFF"/>
+
+    <TextView android:text="" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wgtEmergencyContactNumberValue"
+        android:layout_toRightOf="@+id/wgtEmergencyContactNumber"
+        android:layout_below="@+id/wgtEmergencyContactPersonValue"
+        android:textStyle="bold"
+        android:paddingLeft="5sp"
+        android:textSize="@dimen/widgetTextSize"
+        android:paddingTop="@dimen/widgetPaddingTop"
+        android:textColor="#FFFFFF"/>
+
+
+
+    <Button android:id="@+id/next_level_button"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:text="Call"
+        android:layout_below="@+id/wgtEmergencyContactNumberValue"
+        android:background="@drawable/call_button_border"
+        android:textColor="#000000"/>
+
+</RelativeLayout>
